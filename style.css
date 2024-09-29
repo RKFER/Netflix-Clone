@@ -127,14 +127,16 @@ nav button {
     color: white;
     justify-content: center;
     align-items: center;
-    
+
 }
-@media screen and( max-width: 1285px){
-    
-    .first{
+
+@media screen and(max-width: 1285px) {
+
+    .first {
         flex-wrap: wrap;
     }
 }
+
 @media screen and (max-width: 768px) {
     .first {
         flex-direction: column;
@@ -142,14 +144,17 @@ nav button {
     }
 
     .secImg {
-        width: 100%; /* Adjust the width to fit smaller screens */
+        width: 100%;
+        /* Adjust the width to fit smaller screens */
     }
 
     .secImg video {
-        top: 25%; /* Adjust the top for smaller screens */
+        top: 25%;
+        /* Adjust the top for smaller screens */
         left: 10%;
         width: 80%;
-        height: 58%; /* Ensure the video fits the TV */
+        height: 58%;
+        /* Ensure the video fits the TV */
     }
 }
 
@@ -196,43 +201,56 @@ section.first>div :nth-child(2) {
     font-size: 24px;
     font-weight: 10;
 }
-.faq h2{
+
+.faq h2 {
     text-align: center;
     font-size: 48px
 }
-.faq{
+
+.faq {
     background-color: black;
     color: white;
     padding: 34px;
 }
- .faqbox{
+
+.faqbox {
     display: flex;
     justify-content: space-between;
     background-color: #2d2d2d;
-    padding: 21px; 
+    padding: 21px;
     margin: 34px auto;
-    max-width:60vw ;
+    max-width: 60vw;
     transition: all 1.5s ease-out;
- }
- .faqbox:hover{
+}
+
+.faqbox:hover {
     background-color: rgb(247, 20, 20);
-   
- }
- .footer-item{
+
+}
+
+.footer-item {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
-   
- }
-footer .questions{
-    padding:34px 0;
+
 }
-footer{
+
+footer .questions {
+    padding: 34px 0;
+}
+
+footer {
     color: white;
     max-width: 60vw;
     margin: auto;
     padding: 60px;
-    
+
 }
 
- 
+.end {
+    text-align: center;
+    padding: 8px 0;
+    font-size: 24px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
