@@ -1,0 +1,238 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 84.2vh;
+    width: 100%;
+    opacity: 0.60;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+    padding: 30px;
+}
+
+.hero> :first-child {
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hero :nth-child(3) {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.separation {
+    height: 5.8px;
+    background-color: rgb(139, 139, 139);
+}
+
+.btn {
+    padding: 6px 9px;
+    background-color: white;
+    font-weight: bold;
+}
+
+#gs,
+#sn {
+    background-color: red;
+    color: white;
+}
+
+#gs {
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 30px, 24px;
+}
+
+#en {
+    padding: 6px 9px;
+    background-color: rgba(23, 23, 23, 0.7);
+    font-weight: bold;
+    color: white;
+    border: 1px solid rgba(236, 236, 236, 0.4);
+}
+
+.main input {
+    padding: 0px, 24px;
+    font-size: 24px;
+    border-radius: 3px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(236, 236, 236, 0.4);
+    margin: 0 12px 0 0;
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 50vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media screen and( max-width: 1285px){
+    
+    .first{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 768px) {
+    .first {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .secImg {
+        width: 100%; /* Adjust the width to fit smaller screens */
+    }
+
+    .secImg video {
+        top: 25%; /* Adjust the top for smaller screens */
+        left: 10%;
+        width: 80%;
+        height: 58%; /* Ensure the video fits the TV */
+    }
+}
+
+.secImg {
+    position: relative;
+    width: 600px;
+    height: auto;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.secImg video {
+    position: absolute;
+    top: 29%;
+    left: 13%;
+    width: 73%;
+    height: 42%;
+    z-index: 5;
+    object-fit: cover;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 155px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 10;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+ .faqbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 21px; 
+    margin: 34px auto;
+    max-width:60vw ;
+    transition: all 1.5s ease-out;
+ }
+ .faqbox:hover{
+    background-color: rgb(247, 20, 20);
+   
+ }
+ .footer-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+   
+ }
+footer .questions{
+    padding:34px 0;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+    
+}
+
+ 
