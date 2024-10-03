@@ -4,3 +4,5 @@ It replicates the core design and functionality of the Netflix homepage, includi
 * Responsive layout optimized for various screen sizes. 
 * Interactive elements like video previews, sections for TV shows, movies, and FAQs.
 * A clean and modern UI using HTML, CSS
+You can visit my website by clicking this link 👇
+https://rkfer.github.io/Netflix-Clone/
